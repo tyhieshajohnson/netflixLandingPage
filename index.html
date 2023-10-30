@@ -19,15 +19,39 @@
         </div>
         <!-- Nav-Bar -->
         <!-- Create a CLASS for ul + li (List) -->
-        <ul class="navigationAnchor">
+        <ul class="navigationAnchor navigationLinks d-flex">
             <!-- Use same CLASS as ul -->
-            <li id="menuItem1" class="navigationLinks"><a class="animationMenu" href="#"> Home </a></li>
-            <li id="menuItem2" class="navigationLinks"><a class="animationMenu" href="#"> Tv Shows </a></li>
-            <li id="menuItem3" class="navigationLinks"><a class="animationMenu" href="#"> Movies </a></li>
-            <li id="menuItem4" class="navigationLinks"><a class="animationMenu" href="#"> Latest </a></li>
-            <li id="menuItem5" class="navigationLinks"><a class="animationMenu" href="#"> My List </a></li>
+            <li id="menuItem1"><a class="navigationLinks" href="#"> Home </a></li>
+            <li id="menuItem2"><a class="navigationLinks" href="#"> Tv Shows </a></li>
+            <li id="menuItem3"><a class="navigationLinks" href="#"> Movies </a></li>
+            <li id="menuItem4"><a class="navigationLinks" href="#"> Latest </a></li>
+            <li id="menuItem5"><a class="navigationLinks" href="#"> My List </a></li>
         </ul>
     </div>
+
+    <!-- Carousel -->
+    <!-- Creat an ID and a CLASS for the first Div -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <!-- Footer -->
     <footer></footer>
