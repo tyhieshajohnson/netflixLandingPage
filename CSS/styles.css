@@ -18,3 +18,22 @@
 .navigationLinks a {
     text-decoration: none;
 }
+
+/* Carousel */
+/* Carousel Heading */
+.carousel-header {
+    margin-top: 10px;
+}
+
+/* Carousel Div */
+.carousel-item div {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+/* Carousel Images */
+.img {
+    width: 50px;
+    height: 50px;
+}
